@@ -78,6 +78,13 @@
 .addMessage-form-input{
   margin: 10px;
   font-size: 17px;
+  background-color: rgb(85, 85, 85);
+  color: white;
+  border: solid 1px ghostwhite;
+}
+
+.addMessage-form-input:focus{
+  background-color: rgb(61, 61, 61);
 }
 
 body {
