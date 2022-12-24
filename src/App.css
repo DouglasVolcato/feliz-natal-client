@@ -1,0 +1,190 @@
+:root {
+  background-image: url('https://images.pexels.com/photos/10848318/pexels-photo-10848318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(238, 241, 9, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  position: relative;
+}
+
+.App{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #003607;
+  font-weight: bold;
+  color: rgb(156, 238, 3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #003607;
+  font-weight: bold;
+  color: rgb(156, 238, 3);
+}
+
+.messageCard{
+  background-color: rgb(68, 68, 68);
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  border: solid 4px yellow;
+}
+
+.main-message-image{
+  width: 500px;
+  max-width: 60vw;
+  border: solid 3px yellow;
+  border-radius: 3%;
+}
+
+.messageCard-message{
+  font-size: 20px;
+}
+
+.messageCard-author{
+  font-size: 16px;
+  color: wheat;
+}
+
+.addMessage{
+  display: flex;
+  flex-direction: column;
+  max-width: 70vw;
+}
+
+.addMessage-form{
+  border: solid 5px yellow;
+  padding: 10px;
+  background-color: rgb(82, 81, 81);
+  display: flex;
+  flex-direction: column;
+}
+
+.addMessage-form-input{
+  margin: 10px;
+  font-size: 17px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #02530d;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #faf1f1;
+  font-weight: bold;
+  margin: 5px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media(max-width: 260px){
+  .App{
+    margin-top: 150px;
+  }
+}
