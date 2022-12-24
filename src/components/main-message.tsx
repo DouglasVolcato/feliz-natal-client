@@ -1,7 +1,11 @@
 export function MainMessage() {
   return (
     <div className="main-message">
-      <img className="main-message-image" src="https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+      <img
+        className="main-message-image"
+        src="https://raw.githubusercontent.com/DouglasVolcato/feliz-natal-client/master/src/images/fireworks.jpeg"
+        alt="fireworks"
+      />
       <h2>É tempo de união, paz e reflexão.</h2>
       <h2>
         É tempo de acreditar e transformar o mundo num lugar onde todos os
